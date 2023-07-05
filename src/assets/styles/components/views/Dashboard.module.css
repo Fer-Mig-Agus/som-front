@@ -1,0 +1,87 @@
+.dashboard-container {
+    display: flex;
+    margin: 40px;
+}
+  
+.dashboard-menu-container {
+    width: 240px;
+    margin-right: 20px;
+}
+
+.mainContainerCards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.dashboard-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.cardProfile {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.botonBack {
+  align-self: flex-start;
+  width: 60px;
+  margin-top: -5px;
+  margin-left: -15px;
+  font-size: 25px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  padding: 10px;
+}
+.botonBack:hover {
+  transform: scale(1.10);
+}
+
+.imageBack {
+  width: 30px;
+  height: 30px;
+  padding-right: 4px;
+}
+
+.cardProfileUser {
+  display: flex;
+  flex-direction: column;
+  margin-top: -25px;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 4px;
+  width: 500px;
+  margin-bottom: -50px;
+}
+
+.searchBar input[type="text"] {
+  flex: 1;
+  border: none;
+  border-radius: 8px 0 0 8px;
+  padding: 8px;
+}
+
+.searchBar button {
+  border: none;
+  background-color:rgb(65, 65, 65);
+  padding: 4px;
+  cursor: pointer;
+  width: 100px;
+  height: 33px;
+  color: white;
+  border-radius: 0 8px 8px 0;
+}
+
+  

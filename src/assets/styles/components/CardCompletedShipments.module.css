@@ -1,0 +1,97 @@
+.container {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	padding: 20px;
+}
+
+.content {
+	min-width: 800px;
+	height: auto;
+	overflow-x: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.detallesDelEnvio {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 20px;
+}
+
+.detallerRapidos {
+	width: 40%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 20px;
+	color: black;
+}
+
+.detallesEnvio {
+	width: 60%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 10px;
+	color: black;
+}
+
+.dato{
+	color: var(--color-first);
+}
+
+.contentCartDetails {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	;
+}
+
+
+
+
+/* Esto es para el boton */
+/* ##################################### */
+.button {
+	position: relative;
+	display: inline-block;
+	padding: 5px;
+	text-align: center;
+	font-size: 15px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: var(--color-first);
+	background: transparent;
+	cursor: pointer;
+	transition: ease-out 0.5s;
+	border: 2px solid var(--color-second);
+	border-radius: 5px;
+	box-shadow: inset 0 0 0 0 var(--color-first);
+}
+
+.button:hover {
+	color: white;
+	box-shadow: inset 0 -100px 0 0 var(--color-first);
+}
+
+.button:active {
+	transform: scale(0.9);
+} 

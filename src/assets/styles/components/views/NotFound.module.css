@@ -1,0 +1,27 @@
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    color: white;
+    font-family: felixti,sans-serif;
+}
+
+.subTitle{
+    color: white;
+    font-family: felixti,sans-serif;
+}
+.contentImage {
+	width: 25%;
+	height:auto;
+	overflow: hidden;
+}
+
+.contentImage img {
+	width: 100%;
+	height: 100%;
+}

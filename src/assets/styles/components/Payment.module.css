@@ -1,0 +1,96 @@
+.container {
+	width: 100%;
+	height: 100%;
+}
+
+.content {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0, 0, 0, 0.671);
+}
+.contentCancel {
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.titleCancel {
+	font-size: 30px;
+	color: white;
+}
+
+.button {
+	position: relative;
+	display: inline-block;
+	margin: 15px;
+	padding: 10px;
+	text-align: center;
+	font-size: 15px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: var(--color-first);
+	background: transparent;
+	cursor: pointer;
+	transition: ease-out 0.5s;
+	border: 2px solid var(--color-second);
+	border-radius: 10px;
+	box-shadow: inset 0 0 0 0 var(--color-first);
+}
+
+.button:hover {
+	color: white;
+	box-shadow: inset 0 -100px 0 0 var(--color-first);
+}
+
+.button:active {
+	transform: scale(0.9);
+}
+
+.contentPayment {
+	width: 45%;
+	height: auto;
+    padding: 20px;
+}
+
+.contentCart {
+	width: 50%;
+	height: 500px;
+	overflow-y: scroll;
+	background-color: rgba(128, 128, 128, 0.678);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 20px;
+	border-radius: 10px;
+	padding-top: 20px;
+}
+
+.contentAmount{
+	width: 100%;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.subTotal {
+	font-size: 20px;
+	color: white;
+}
+
+.total {
+	font-size: 30px;
+	color: white;
+	border-top: 2px dashed rgb(0, 0, 0);
+	border-bottom: 2px dashed rgb(0, 0, 0);
+}
